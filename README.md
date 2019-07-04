@@ -36,4 +36,6 @@ Next, we need to move into data cleaning. This section will be very important fo
 5. remove frequent
 6. remove rare/uncommon words
 
+Next in the process it was necessary to lemmatizing.
+
 
