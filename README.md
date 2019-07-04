@@ -12,6 +12,7 @@ Some notable sources used while performing this analysis and classification:
 
 The data here is a collection of 747 Spam texts along with 4,827 non-spam (HAM) texts. The file is formatted as a plain text file.
 
+### Feature Engineering
 The first phase consisted of feature engineering, to help with a single logistic regression:
 
 Before any of this I did a little bit of text exploring to see if I could see anything that may or may not help me--this was crucial for choosing __'flag words'__. Items like word count, char counts, number of numerics, number of upper case, etc. are pretty common practice, so they are great features to add to your data set before cleaning. 
@@ -24,3 +25,15 @@ Before any of this I did a little bit of text exploring to see if I could see an
 6. Number of Flag Words
 7. Links in message
 8. Count of stop words
+
+### Data Preprocessing
+
+Next, we need to move into data cleaning. This section will be very important for the remaineder of this project and the models we run. In the next few cells we will:
+1. create a function to remove all punction
+2. lower case all of the words in our messages
+3. remove stop words
+4. check for spelling and correct where needed
+5. remove frequent
+6. remove rare/uncommon words
+
+
