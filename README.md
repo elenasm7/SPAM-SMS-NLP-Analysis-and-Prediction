@@ -3,7 +3,7 @@ Using supervised natural language processing to predict whether an SMS message i
 
 We use both logistic regression and random forest to classify outcomes. Due to the class imbalance of this problem, I will walk through multiple ways of dealing with this issue when it comes to predictions. I will also adress the other areas that it may affect.
 
-# SMS Spam Classification
+### SMS Spam Classification
 
 This project I will be looking into SMS text data from multiple sources all collected by the team [Tiago A. Almeida](http://dcomp.sor.ufscar.br/talmeida/) and [José María Gómez Hidalgo](http://www.esp.uem.es/jmgomez). For more information on how they collected this data check it out [here](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/).
 
