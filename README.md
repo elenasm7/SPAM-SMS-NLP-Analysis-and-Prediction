@@ -36,6 +36,10 @@ Next, we need to move into data cleaning. This section will be very important fo
 5. remove frequent
 6. remove rare/uncommon words
 
-Next in the process it was necessary to lemmatizing.
+#### Next in the process it was necessary to lemmatizing. 
+__More info on Lemmatizing__: it is a way to reduce a word to it's base. So, a word like running would be lemmatized to run, the same for movies to movie and potatoes to potato. This is similar to stemming, but is esentially starter and doesn't cut words down that may have the same stem with two separate meanings.
 
+So, this is an interesting problem in the project. We've come to the next part, where typically I would train-test split. However, due to the class imbalance, it may be better to simply using different resampling methods so that we do not lost any of the minorty class and hopefully improve our predictions.
+
+Below is a graph of the the count of each class (Spam or Ham) of our data:
 
