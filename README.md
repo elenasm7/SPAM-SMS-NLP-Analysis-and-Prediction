@@ -41,10 +41,9 @@ __More info on Lemmatizing__: it is a way to reduce a word to it's base. So, a w
 
 So, this is an interesting problem in the project. We've come to the next part, where typically I would train-test split. However, due to the class imbalance, it may be better to simply using different resampling methods so that we do not lost any of the minorty class and hopefully improve our predictions.
 
-Below is a graph of the the count of each class (Spam or Ham) of our data:
 <p align="center">
   <strong>Below is a graph of the the count of each class (Spam or Ham) of our data:</strong>
-  <img src='class_imbalance.png'></img>
+  <img src='class_imbalance.png' alt='class imbalance sns countplot'></img>
 </p>
 
 
