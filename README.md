@@ -42,7 +42,8 @@ __More info on Lemmatizing__: it is a way to reduce a word to it's base. So, a w
 So, this is an interesting problem in the project. We've come to the next part, where typically I would train-test split. However, due to the class imbalance, it may be better to simply using different resampling methods so that we do not lost any of the minorty class and hopefully improve our predictions.
 
 Below is a graph of the the count of each class (Spam or Ham) of our data:
-![class imbalance](class_imbalance.png)
+<img src='class_imbalance.png' style='float: center'></img>
+
 
 As you can see from the image above the amount of spam messages we actually have is far fewer than the ham messages, only about 16% of the data is made up of the __Spam__ class. If we decided to proceed with train-test split, we could potentially take most of those into the test data and leave very little for the train data. Additionally, it will probably make this difference even bigger. 
 
